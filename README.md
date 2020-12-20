@@ -11,8 +11,13 @@ The application can be used to write, save, and delete notes. This application w
 * [License](#License)   
 
 ## Installation
-
+* npm init
+* npm install express.js
+##
 ## Tests
+![index-screencap](./public/assets/img/index-screencap.png)
+##
+![notes-screecap](./public/assets/img/note-screencap.png)
 
 ## Questions
 For any questions, please reach out to me:
