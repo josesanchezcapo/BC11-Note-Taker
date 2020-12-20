@@ -29,17 +29,16 @@ module.exports = app => {
         // GET A note by id
         app.get("/api/notes/:id", function (req, res) {
             res.json(notes[req.params.id]);
+            res.send(notes); // refresh page
         });
 
         // delete a note
         app.delete("/api/notes/:id", function (req, res) {
             notes.splice(req.params.id, 1);
-            updateDb();
+            dbUpdate();
             console.log("Note with id was deleted " + req.params.id);
-            res.send(notes); // refresh page
-        });
 
-        // view routes
+        })
 
         // notes.html
         app.get('/notes', function (req, res) {
