@@ -1,3 +1,5 @@
+// My routes
+
 const fs = require('fs');
 const path = require('path');
 
@@ -22,7 +24,7 @@ module.exports = app => {
             notes.push(newNote);
             dbUpdate(); //  1. update json file db
             res.send(notes); // 2. refresh page
-            
+
             return console.log("A new note was added " + newNote.title);
         });
 
@@ -45,7 +47,7 @@ module.exports = app => {
         app.get('/notes', function (req, res) {
             res.sendFile(path.join(__dirname, "../public/notes.html"));
         });
-    
+
         // index.html
         app.get('*', function (req, res) {
             res.sendFile(path.join(__dirname, "../public/index.html"));
