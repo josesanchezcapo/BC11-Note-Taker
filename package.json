@@ -10,7 +10,8 @@
   "author": "Jose Sanchez-Capo",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "express.js": "^1.0.0"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,6 @@
   "bugs": {
     "url": "https://github.com/josesanchezcapo/bc11-note-taker/issues"
   },
-  "homepage": "https://github.com/josesanchezcapo/bc11-note-taker#readme"
+  "homepage": "https://github.com/josesanchezcapo/bc11-note-taker#readme",
+  "devDependencies": {}
 }
