@@ -15,6 +15,10 @@ The application can be used to write, save, and delete notes. This application w
 * npm install express.js
 ##
 ## On Heroku (Url)
+## Index
+[](https://pure-wildwood-00601.herokuapp.com)
+##
+[](https://pure-wildwood-00601.herokuapp.com/notes)
 
 ##
 ## Tests
