@@ -24,7 +24,6 @@ module.exports = app => {
             notes.push(newNote);
             dbUpdate(); //  1. update json file db
             res.send(notes); // 2. refresh page
-
             return console.log("A new note was added " + newNote.title);
         });
 
@@ -40,7 +39,6 @@ module.exports = app => {
             dbUpdate();
             console.log("Note with id was deleted " + req.params.id);
             res.send(notes); // refresh page
-
         })
 
         // notes.html

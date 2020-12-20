@@ -33,6 +33,8 @@ The application can be used to write, save, and delete notes. This application w
 ## Questions
 For any questions, please reach out to me:
     Find me in GitHub: josesanchezcapo | [My GitHub Profile](josesanchezcapo) | [Email Me](Follow me in Github to obtain my email.)
+````
+````
 ## Lincense
 * MIT License
 ````
