@@ -37,6 +37,7 @@ module.exports = app => {
             notes.splice(req.params.id, 1);
             dbUpdate();
             console.log("Note with id was deleted " + req.params.id);
+            res.send(notes); // refresh page
 
         })
 
