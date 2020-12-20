@@ -18,12 +18,11 @@ The application can be used to write, save, and delete notes. This application w
 ````
 ##
 ## On Heroku (Url)
-````Index
+
 * [https://pure-wildwood-00601.herokuapp.com](https://pure-wildwood-00601.herokuapp.com)
-````
-````Notes
+
 * [https://pure-wildwood-00601.herokuapp.com/notes](https://pure-wildwood-00601.herokuapp.com/notes)
-````
+
 ##
 ## Tests
 ![index-screencap](./public/assets/img/index-screencap.png)
