@@ -8,7 +8,7 @@
     "start": "node server.js"
   },
   "author": "Jose Sanchez-Capo",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.17.1",
     "express.js": "^1.0.0"
